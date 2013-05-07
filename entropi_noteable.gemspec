@@ -6,7 +6,7 @@ require "entropi/noteable/version"
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "entropi_noteable"
-  s.version     = EntropiNoteable::VERSION
+  s.version     = Entropi::Noteable::VERSION
   s.authors     = ["Nicholas W. Watson"]
   s.email       = ["nick@entropi.co"]
   s.homepage    = "https://github.com/entropillc/entropi_noteable"
