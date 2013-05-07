@@ -13,6 +13,7 @@ group :development do
   gem 'rb-fsevent', '~> 0.9'
 end
 
+gem "rspec-rails", group: [:development, :test]
 gem "factory_girl_rails", group: [:development, :test]
 group :test do
   gem "capybara"
