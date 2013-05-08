@@ -1,3 +1,3 @@
-= EntropiNoteable
+= entropi_notable
 
-This project rocks and uses MIT-LICENSE.
+entropi_notable 
