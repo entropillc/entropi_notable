@@ -3,7 +3,7 @@ module Entropi
     extend ActiveSupport::Concern
 
     included do
-      has_many :notes, as: :notable, dependent: destroy
+      has_many :notes, as: :notable, dependent: :destroy, class_name: "Entropi::Note"
 
       # Retrieves notes by order submitted
       def notes_chronologically

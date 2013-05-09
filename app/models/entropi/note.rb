@@ -1,4 +1,6 @@
 class Entropi::Note < ActiveRecord::Base
+  extend Entropi
+
   attr_accessible :body, :notable_id, :notable_type, :title, :user_id
 
   # Relationships
