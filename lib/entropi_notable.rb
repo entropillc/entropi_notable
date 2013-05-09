@@ -5,3 +5,4 @@ module Entropi
 end
 
 require "entropi/notable/notable" if defined?(Rails)
+require "entropi/notable"
